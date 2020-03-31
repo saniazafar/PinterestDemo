@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageViewCell" id="PzL-Ge-rtf" customClass="ImageViewCell" customModule="PinterestDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="kMo-Lx-rAv">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R0Y-3L-QuB">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="180"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="R0Y-3L-QuB" secondAttribute="trailing" id="GCZ-us-3ZE"/>
+                    <constraint firstItem="R0Y-3L-QuB" firstAttribute="top" secondItem="kMo-Lx-rAv" secondAttribute="top" id="NlA-9q-hl6"/>
+                    <constraint firstItem="R0Y-3L-QuB" firstAttribute="leading" secondItem="kMo-Lx-rAv" secondAttribute="leading" id="dsC-8W-1Wo"/>
+                    <constraint firstAttribute="bottom" secondItem="R0Y-3L-QuB" secondAttribute="bottom" id="pw2-QG-QN7"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="167" height="180"/>
+            <connections>
+                <outlet property="imageView" destination="R0Y-3L-QuB" id="j4m-QY-iqp"/>
+            </connections>
+            <point key="canvasLocation" x="-347" y="67"/>
+        </collectionViewCell>
+    </objects>
+</document>

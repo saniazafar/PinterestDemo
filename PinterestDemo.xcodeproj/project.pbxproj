@@ -15,6 +15,11 @@
 		1AAF1A202431281B00E93657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAF1A1E2431281B00E93657 /* LaunchScreen.storyboard */; };
 		1AAF1A2B2431281B00E93657 /* PinterestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF1A2A2431281B00E93657 /* PinterestDemoTests.swift */; };
 		1AAF1A362431281B00E93657 /* PinterestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF1A352431281B00E93657 /* PinterestDemoUITests.swift */; };
+		1AAF1A4424312D5900E93657 /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AAF1A4324312D5900E93657 /* ImageViewCell.xib */; };
+		1AAF1A4624312EDF00E93657 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF1A4524312EDF00E93657 /* ImageViewCell.swift */; };
+		1AAF1A482433946000E93657 /* PinterestCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAF1A472433946000E93657 /* PinterestCollectionViewLayout.swift */; };
+		1AAF1A4A2433A05600E93657 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AAF1A492433A05600E93657 /* Photos.plist */; };
+		1AB96B0D243662AC00E842E2 /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 1AB96B0C243662AC00E842E2 /* Screenshots */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		1AAF1A312431281B00E93657 /* PinterestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinterestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAF1A352431281B00E93657 /* PinterestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestDemoUITests.swift; sourceTree = "<group>"; };
 		1AAF1A372431281B00E93657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAF1A4324312D5900E93657 /* ImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
+		1AAF1A4524312EDF00E93657 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		1AAF1A472433946000E93657 /* PinterestCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestCollectionViewLayout.swift; sourceTree = "<group>"; };
+		1AAF1A492433A05600E93657 /* Photos.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		1AB96B0C243662AC00E842E2 /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		1AAF1A072431281900E93657 = {
 			isa = PBXGroup;
 			children = (
+				1AB96B0C243662AC00E842E2 /* Screenshots */,
 				1AAF1A122431281900E93657 /* PinterestDemo */,
 				1AAF1A292431281B00E93657 /* PinterestDemoTests */,
 				1AAF1A342431281B00E93657 /* PinterestDemoUITests */,
@@ -102,10 +113,14 @@
 				1AAF1A132431281900E93657 /* AppDelegate.swift */,
 				1AAF1A152431281900E93657 /* SceneDelegate.swift */,
 				1AAF1A172431281900E93657 /* ViewController.swift */,
+				1AAF1A4524312EDF00E93657 /* ImageViewCell.swift */,
+				1AAF1A472433946000E93657 /* PinterestCollectionViewLayout.swift */,
 				1AAF1A192431281900E93657 /* Main.storyboard */,
+				1AAF1A4324312D5900E93657 /* ImageViewCell.xib */,
 				1AAF1A1C2431281B00E93657 /* Assets.xcassets */,
 				1AAF1A1E2431281B00E93657 /* LaunchScreen.storyboard */,
 				1AAF1A212431281B00E93657 /* Info.plist */,
+				1AAF1A492433A05600E93657 /* Photos.plist */,
 			);
 			path = PinterestDemo;
 			sourceTree = "<group>";
@@ -232,9 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAF1A4424312D5900E93657 /* ImageViewCell.xib in Resources */,
 				1AAF1A202431281B00E93657 /* LaunchScreen.storyboard in Resources */,
 				1AAF1A1D2431281B00E93657 /* Assets.xcassets in Resources */,
 				1AAF1A1B2431281900E93657 /* Main.storyboard in Resources */,
+				1AB96B0D243662AC00E842E2 /* Screenshots in Resources */,
+				1AAF1A4A2433A05600E93657 /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAF1A4624312EDF00E93657 /* ImageViewCell.swift in Sources */,
 				1AAF1A182431281900E93657 /* ViewController.swift in Sources */,
+				1AAF1A482433946000E93657 /* PinterestCollectionViewLayout.swift in Sources */,
 				1AAF1A142431281900E93657 /* AppDelegate.swift in Sources */,
 				1AAF1A162431281900E93657 /* SceneDelegate.swift in Sources */,
 			);
@@ -373,6 +393,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -426,6 +447,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -443,7 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = saniazafar.PinterestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -461,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = saniazafar.PinterestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -482,7 +504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = saniazafar.PinterestDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinterestDemo.app/PinterestDemo";
 			};
@@ -504,7 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = saniazafar.PinterestDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinterestDemo.app/PinterestDemo";
 			};
@@ -524,7 +546,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = saniazafar.PinterestDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PinterestDemo;
 			};
@@ -544,7 +566,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = saniazafar.PinterestDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PinterestDemo;
 			};
